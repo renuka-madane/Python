@@ -1,0 +1,16 @@
+Advance (7)
+
+1. whether the string is palindrome or not
+Program - 
+p1=str(input("Enter a word -- "))
+if p1 == p1[::-1]:
+    print(p1,"word is a palindrome")
+else:
+    print("Not a palindrome")
+    
+............o/p........
+Enter a palindrome -- amma
+amma is a palindrome
+
+Enter a palindrome -- earth
+Not a palindrome
