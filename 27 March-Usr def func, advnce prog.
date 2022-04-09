@@ -1,22 +1,85 @@
 #User Def functions (4)
-Write function to concatenate three strings
-Write a function multiply three different integers and return a int
-Write a function to return middle char of the string
-write a function to return whether middle character is vowel or not 
+1 - Write function to concatenate three strings
+Program -
+def con_str(a,b,c):    
+    result=a+b+c
+    return(result)
 
+a=str(input())
+b=str(input())
+c=str(input())
+# Driver code to call the function
+print(con_str(a,b,c))
+..........O/P.....
+i
+am
+fine
+iamfine
+..........................................
+2-Write a function multiply three different integers and return a int
+....Program ......
+def mult_int(a,b,c):
+    result=(a*b*c)
+    return(result)
+a=int(input())
+b=int(input())
+c=int(input())
 
+# Driver code to call the function
+print(mult_int(a,b,c))
 
-
-
-
-
-
-
-
-
-
-
-
+# Driver code to call the function
+print(mult_int(a,b,c))
+..........O/P .......
+3
+5
+7
+105
+..............................................
+3-Write a function to return middle char of the string
+def mid_char(str):
+     
+    # Finding string length
+    length = len(str);
+ 
+    # Finding middle index of string
+    middle = (length // 2);
+    return(str[middle]) 
+# Driver Code
+str=input() 
+# Function Call
+print(mid_char(str));
+.........O/P........
+media
+d
+intelinc
+l
+...........................................................
+4-Write a function to return whether middle character is vowel or not 
+............Program .........
+def mid_char(str):
+     
+    # Finding string length
+    length = len(str);
+ 
+    # Finding middle index of string
+    middle = (length // 2);
+    x=str[middle]
+    if (x == 'a' or x == 'e' or
+        x == 'i' or x == 'o' or x == 'u'):
+        print("Vowel")
+    else:
+        print("Consonant")    
+ 
+# Driver Code
+str=input() 
+# Function Call
+print(mid_char(str));
+................O/P...........
+media
+Consonant
+skelo
+Vowel
 
 Advance (7)
 
